@@ -1,0 +1,426 @@
+ @import url('reset.css');
+
+
+body{
+	font-family: arial;
+	line-height: 1.6;
+
+}
+/*-------------------外框-------------------*/
+.wrapper{
+}
+.part {
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.content{
+	width: 1100px;
+	margin: 0 auto;
+}
+/*-------------------Tag-------------------*/
+img{
+	display: inline-block;
+}
+
+a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+
+h2{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+p{
+	font-size: 14px;
+	color: rgb(164,165,168);
+}
+
+/*-------------------套件-------------------*/
+.underline{
+	height: 2.5px;
+	width: 65px;
+	background-color: rgb(255,139,56);
+	display: inline-block;
+}
+
+.download{
+	width: 133px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 16px;
+	background-color: rgb(51,51,51);
+}
+
+
+/*-------------------PART1-------------------*/
+.number1{
+	padding-top: 1px;
+}
+/*----------------PART1-1----------------*/
+.number1-1{
+	background-color: black;
+	height: 70px;
+	padding-top: 21px;
+	position: fixed;
+	z-index: 3;
+}
+.number1-1 img{
+	height: 28px;
+	display: inline-block;
+}
+.number1-1 ul{
+	float: right;
+}
+.number1-1 li{
+	float: left;
+	font-size: 12px;
+	margin-left: 46px;
+	line-height: 22px;
+}
+.number1-1 li a:hover {color: rgb(255,139,56)}
+
+/*------------------PART1-2----------------*/
+.number1-2 {
+	background-image: url(../img/main_bg.png);
+	height: 640px;
+	margin-top: 70px;
+	padding-top: 108px;
+}
+
+.number1-2 img{
+	width: 182px;
+	margin-bottom: 33px;
+}
+.number1-2 h2{
+	font-size: 36px;
+	width: 550px;
+	color: white;
+	font-weight: lighter;
+	line-height: 45px;
+}
+
+.number1-2 .underline{
+	background-color: white;
+	margin: 40px 0;
+	display: block;
+}
+.number1-2 p{
+	width: 470px;
+	line-height: 1.5;
+	margin-bottom: 45px;
+	font-size: 16px;
+	font-family: verdana;
+}
+.number1-2 .download{
+	background-color: rgba(1,1,1,0);
+	border: 1px solid white;
+}
+
+/*------------------PART1-3----------------*/
+.number1-3{
+	height: 105px;
+	padding-top: 22px;
+	line-height: 1;
+}
+
+.number1-3 p{
+	padding-top:5px; ;
+	font-size: 14px;
+	line-height: 1.5;
+	width: 360px;
+}
+
+.description{
+	width: 375px;
+	display: inline-block;
+
+}
+.description-link{
+	width: 720px;
+	display: inline-block;
+	text-align: right;	
+}
+
+.linkin1{
+	width: 50px;
+	height: 50px;
+	background-image: url(../img/social_media_icons_big.png);
+	background-repeat: no-repeat;
+	text-align: right;	
+	margin-left: 45px;
+}
+
+
+		.linkin1.btn1{background-position: 0 0;}
+		.linkin1.btn2{background-position: 0 -50px;}
+		.linkin1.btn3{background-position: 0 -100px;}
+		.linkin1.btn4{background-position: 0 -150px;}
+		.linkin1.btn5{background-position: 0 -200px;}
+		.linkin1.btn6{background-position: 0 -250px;}
+		.linkin1.btn7{background-position: 0 -300px;}
+
+		.linkin1.btn1:hover{background-position: -50px 0;}
+		.linkin1.btn2:hover{background-position: -50px -50px;}
+		.linkin1.btn3:hover{background-position: -50px -100px;}
+		.linkin1.btn4:hover{background-position: -50px -150px;}
+		.linkin1.btn5:hover{background-position: -50px -200px;}
+		.linkin1.btn6:hover{background-position: -50px -250px;}
+		.linkin1.btn7:hover{background-position: -50px -300px;}
+
+
+/*-------------------PART2-------------------*/
+.number2{
+	height: 595px;
+	background-color: rgb(245,245,245);
+	padding-top: 146px;
+
+}
+.number2 .content{
+	overflow: hidden;
+}
+.number2 ul{
+	width: 110px;
+	float: left;
+}
+
+.number2 li {
+	width: 110px;
+	height: 110px;
+	background-image: url(../img/html_bg.png);
+	text-align: center;
+	line-height: 110px;
+	border-bottom: 1px solid white;
+}
+.number2 li a {width: 110px;}
+.number2 li a:hover {background-color: rgb(255,139,56);}
+.download:hover {background-color: rgb(255,139,56);}
+
+.number2 main{
+	width: 480px;
+	height: 330px;
+	float: left;
+	margin-left: 100px;
+	line-height: 1.3;
+}
+.number2 main h2{
+	margin-bottom: 57px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.number2 h2+p {
+	margin-bottom: 27px;
+}
+
+.number2 p+p {
+	margin-bottom: 50px;
+}
+.number2 img{
+	height: 240px;
+	margin:15px 0 0 20px;
+	float: right;
+}
+
+
+/*-------------------PART3-------------------*/
+.number3{
+	height: 595px;
+	padding-top: 105px;
+}
+
+.number3 img{
+	width: 450px;
+	position: relative;
+	left: -21px;
+}
+.number3 main{
+	width: 438px;
+	float: right;
+
+}
+
+.number3 h2{
+	font-size: 20px;
+	line-height: 1;
+
+}
+.underline {
+	margin: 25px 0 15px;
+}
+
+
+.underline+p {
+	margin-bottom: 40px;
+}
+.number3 li{
+	height: 60px;
+	font-size: 0;
+	margin-bottom: 42px;
+}
+
+.number3 a{
+	width: 40px;
+	height: 60px;
+	background-image: url(../img/icon01.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	vertical-align: top;
+	margin-right: 20px;
+}
+.number3 article{
+	width:365px; 
+	display: inline-block;
+	font-size: 16px;
+	line-height: 1.2;
+}
+
+
+
+/*-------------------PART4-------------------*/
+.number4{
+	height: 525px;
+	background-color: rgb(245,245,245);
+	padding-top: 88px;
+}
+.number4 main{
+	width: 490px;
+	float: left;
+}
+.number4 img{
+	margin-left: 85px;
+	position: relative;
+	left: 36px;
+}
+.number4 h2{
+	font-size: 20px;
+}
+/*-------------------PART5-------------------*/
+.number5{
+	height: 595px;
+	text-align: center;
+	padding-top: 106px;
+}
+.number5 li{
+	display: inline-block;
+	width: 350px;
+}
+.number5 h2{
+	font-size: 36px;
+}
+.number5 p{
+	margin-bottom: 80px;
+}
+.number5 h3{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 25px 0;
+}
+.number5 li p{
+	width: 340px;
+}
+/*-------------------PART6-------------------*/
+.number6{
+	height: 595px;
+	background-color: rgb(245,245,245);	
+	text-align: center;
+	padding-top: 106px;
+}
+.number6 li{
+	display: inline-block;
+	width: 252px;
+	text-align: left;
+}
+.number6 h2{
+	font-size: 36px;
+}
+
+.number6 main{
+	padding-top: 80px;
+}
+.number6 li p{
+	padding-bottom: 50px; 
+}
+
+
+.number6 img{
+	float: left;
+}
+
+.number6 section{
+	float: left;
+	padding: 12px;
+	line-height: 1.3;
+
+}
+.number6 h4{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.number6 ul{
+	width: 1100px;
+}
+.number6 li:nth-child(2){
+	margin: 0 130px;
+}
+
+/*-------------------PART7-------------------*/
+.number7{text-align: center;}
+
+/*----------------PART7-1----------------*/
+.number7-1{
+	height: 320px;
+	background-image: url(../img/down_bg.png);
+	padding-top: 73px;
+	
+}
+
+.number7-1 .download{
+	background-color: rgba(1,1,1,0);
+	border: 1px solid white;
+}
+
+.number7-1 h1{
+	font-size: 36px;
+	color: white;
+}
+
+.number7-1 .underline{
+	background-color: white;
+}
+
+/*----------------PART7-2----------------*/
+.number7-2{
+	height: 100px;
+	margin-bottom: 100px;
+	background-color: black;
+	padding-top: 37px;	
+}
+
+.linkin2{
+	width: 25px;
+	height: 25px;
+	background-image: url(../img/social_media_icons_small.png);
+	background-repeat: no-repeat;
+	margin: 0 15px;
+}
+		.linkin2.btn1{background-position: 0 0;}
+		.linkin2.btn2{background-position: 0 -25px;}
+		.linkin2.btn3{background-position: 0 -50px;}
+		.linkin2.btn4{background-position: 0 -75px;}
+		.linkin2.btn5{background-position: 0 -100px;}
+		.linkin2.btn6{background-position: 0 -125px;}
+		.linkin2.btn7{background-position: 0 -150px;}
+
+		.linkin2.btn1:hover{background-position: -25px 0;}
+		.linkin2.btn2:hover{background-position: -25px -25px;}
+		.linkin2.btn3:hover{background-position: -25px -50px;}
+		.linkin2.btn4:hover{background-position: -25px -75px;}
+		.linkin2.btn5:hover{background-position: -25px -100px;}
+		.linkin2.btn6:hover{background-position: -25px -125px;}
+		.linkin2.btn7:hover{background-position: -25px -150px;}
+
